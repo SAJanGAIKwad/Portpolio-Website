@@ -471,6 +471,43 @@ section .title::after{
     font-size: 25px;
     color: rgb(50, 20, 220);
 }
+
+/* new  icons below the send messege botton*/
+
+.roww  {
+    display: inline-block;
+    margin-top: 40px;
+    margin-block-end: 2px;
+}
+
+ .roww .infoo{
+    margin-left: 40px;
+    margin-top: -40px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+.roww i{
+    font-size: 25px;
+    color: rgb(228, 27, 13);
+}
+
+#fb i{
+    color: rgb(98, 71, 252);
+}
+
+#In i{
+    color:rgb(4, 106, 223);
+}
+
+
+
+
+
+
+
+
 .contact .contact-content .info .head{
     font-weight: 500;
 }
