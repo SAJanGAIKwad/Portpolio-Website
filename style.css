@@ -198,7 +198,7 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background:crimson;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
@@ -213,9 +213,26 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
+/* about section styling 
+.about{
+    display: flex;
+    background: url("profile-6.jpeg") no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*/
+
+.about{
+    background-color:grey;
+}
 .about .title::after{
     content: "who i am";
+    border-radius:2rem;
+    font-weight: 600;
 }
 .about .about-content .left{
     width: 45%;
@@ -304,6 +321,15 @@ section .title::after{
 }
 
 /* skills section styling */
+.skills{   
+    display: flex;
+    background: url("profile-6.jpeg") no-repeat center;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .skills .title::after{
     content: "what i know";
@@ -442,8 +468,20 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact{
+    display: flex;
+    background: url("profile-6.jpeg") no-repeat center;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
 .contact .title::after{
     content: "get in touch";
+    background-color:#b3b3b3;
+    border-radius: 2rem;
+    font-weight: 600;
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
@@ -466,10 +504,12 @@ section .title::after{
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
+    font-weight: 600;
+  
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: rgb(50, 20, 220);
+    color: rgb(220, 20, 20);
 }
 
 /* new  icons below the send messege botton*/
@@ -500,12 +540,6 @@ section .title::after{
 #In i{
     color:rgb(4, 106, 223);
 }
-
-
-
-
-
-
 
 
 .contact .contact-content .info .head{
