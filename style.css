@@ -161,7 +161,14 @@ section .title::after{
     filter: brightness(90%);
 }
 
-
+#preloader{ 
+    background: #000000 url(preloader\ gif.gif) no-repeat center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
 /* home section styling */
 .home{
     display: flex;
@@ -223,8 +230,8 @@ section .title::after{
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
 }
+ */
 
-*/
 
 .about{
     background-color:grey;
@@ -470,7 +477,7 @@ section .title::after{
 /* contact section styling */
 .contact{
     display: flex;
-    background: url("profile-6.jpeg") no-repeat center;
+    background-color: grey;
     color: #fff;
     min-height: 500px;
     background-size: cover;
