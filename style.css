@@ -235,6 +235,7 @@ section .title::after{
 
 .about{
     background-color:grey;
+    max-width: 100vh
 }
 .about .title::after{
     content: "who i am";
